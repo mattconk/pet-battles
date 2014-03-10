@@ -1,0 +1,14 @@
+[23-Aug-2013 21:18:33 America/New_York] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO)' in /home/mattconk/public_html/portfolio/pet-battles/includes/connection.php:10
+Stack trace:
+#0 /home/mattconk/public_html/portfolio/pet-battles/includes/connection.php(10): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/mattconk/public_html/portfolio/pet-battles/includes/includes.php(3): include('/home/mattconk/...')
+#2 /home/mattconk/public_html/portfolio/pet-battles/index.php(2): include('/home/mattconk/...')
+#3 {main}
+  thrown in /home/mattconk/public_html/portfolio/pet-battles/includes/connection.php on line 10
+[23-Aug-2013 21:18:55 America/New_York] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO)' in /home/mattconk/public_html/portfolio/pet-battles/includes/connection.php:10
+Stack trace:
+#0 /home/mattconk/public_html/portfolio/pet-battles/includes/connection.php(10): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/mattconk/public_html/portfolio/pet-battles/includes/includes.php(3): include('/home/mattconk/...')
+#2 /home/mattconk/public_html/portfolio/pet-battles/index.php(2): include('/home/mattconk/...')
+#3 {main}
+  thrown in /home/mattconk/public_html/portfolio/pet-battles/includes/connection.php on line 10

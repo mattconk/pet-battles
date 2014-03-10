@@ -1,0 +1,191 @@
+@charset "utf-8";
+
+html {
+	/*background-image:url(../images/Icons/Backgrounds%20&%20Borders/UI-Background-Rock.png);*/
+}
+
+body {
+	margin: 5px auto 5px auto;
+	width: 95%;
+	font: 14px "Trebuchet MS", Verdana, Helvetica, Arial, sans-serif;
+	}
+
+/* Header CSS */
+header, article, .mainContent {
+	width: auto;
+	margin: 1% 10% 1% 5%;
+}
+
+
+header .logo { width: 192px; 			}
+header h3 { position: absolute; top: 48px; margin-top: 11px; margin-left: 56%; font-size: 24px   }
+header .pic{ width: 48px; height: 48px;  position: absolute; top: 0px; margin-top: 10px; margin-left: 62%;  box-shadow: 3px 3px 4px #000; -moz-border-radius: 4px; -webkit-border-radius: 4px;}
+
+hr {  border-bottom-color: #006A87;	width: 100%; margin: 10px 0px 0px 0px;}
+
+p {
+	padding-left: 20px;
+	padding-bottom: 7.5px;
+	font-size: 14px;
+	color: black;
+	}
+
+
+.rightSide 		{float: right; width: 18%; /*border: 1px solid black*/; padding: 1px;  margin: 0.5%;     }
+.googleads  {margin: 10px 0px 0px 0px; }
+.window  		{width: 31%;  float: left; height: 120px; float: left; border: 3px solid #006A87; padding: 2px; margin: 3px;
+background-image:url(../images/Icons/Backgrounds%20&%20Borders/UI-Background-Marble.png); }
+.hide			{display: none;}
+#fadedFamily {float: right; width: 100px; height: 100px; margin: 10px 5px 0px 0px;}
+.displayPets    { width: 79%; padding: 1px; margin: 1% 1% 1% 1%;     }
+	.displayPets li {color: yellow;}
+	#petImage img   {width: 42px; height: 42px; margin: 2px 0px 0px -18px; border: 3px solid #D9831A; -moz-border-radius: 4px; -webkit-border-radius: 4px; -moz-box-shadow: -1px 1px 20px -2px #F2DE79; -webkit-box-shadow: -1px 1px 20px -2px #F2DE79; box-shadow: -1px 2px 10px -2px #F2DE79;   }
+	#petLevel 	{ margin: -27px 0px 0px 35px;   }
+		#petLevel img 	{width: 30px; height: 30px; }
+		#levelHigh 	{margin: -27px 0px 0px -11px; font-size: 12px; color:#D9831A; font-weight:bold; }
+		#levelLow 	{margin: -27px 0px 0px -8.5px; font-size: 12px; color:#D9831A; font-weight:bold; }
+	.displayPets h3 {position: absolute; font-size: 14px;  margin: -60px 0px 0px 55px; padding: 0px;}
+		#petNameGrey   {width: 253px; color:gray;  }
+		#petNameWhite {width: 253px; color:White; }
+		#petNameGreen {width: 253px; color:Green;  }
+		#petNameBlue  {width: 253px; color:Blue;  }
+		
+	#notBattlePet p  {margin: -40px 0px 0px 62px; padding: 0px; font-size: 16px; color: yellow;}
+	#petHealthFav { 	margin: 5px 0px 0px 70px; padding: 0px; width: 45px; border-bottom-width: 5px; border-bottom-style: solid; border-bottom-color: #006600;}
+		#petHealthFav img {	float: left; margin: 2px 0px 0px 0px; padding: 0px; width: 14px; height: 14px;  }
+		#petHealthFav p {		margin: 0px 0px 0px 0px; padding: 0px 0px 0px 18px ; color: white;  }
+	#petHealthNotFav {  margin: -45px 0px 0px 70px; padding: 0px; width: 45px; border-bottom-width: 5px; border-bottom-style: solid; border-bottom-color: #006600;}
+		#petHealthNotFav img {	float: left; margin: 2px 0px 0px 0px; padding: 0px; width: 14px; height: 14px;  }
+		#petHealthNotFav p {		margin: 0px 0px 0px 0px; padding: 0px 0px 0px 18px ; color: white;  }
+	#petPower {  		float: left; margin: 20px 0px 0px 10px; padding: 0px; width: 45px; color: white;}
+		#petPower img {		width: 12px; height: 12px;  }
+	#petSpeed {  		 margin: 20px 0px 0px 10px; padding: 0px; width: 45px; color: white;}
+		#petSpeed img {		 width: 12px; height: 12px;  }
+	#petFavorite { 		margin: -71px 0px 0px -4px; padding: 0px; }
+	#petFavoriteNC { 	margin: -49px 0px 0px -5px; padding: 0px; }
+	#petSpells {    }
+		#petSpells table { margin: 0px; padding: 0px; margin: -85px 0px 0px 150px; /*border: 1px solid #006A87;*/ width: 120px;}
+		.spells { clear: both; margin: 0px; padding: 0px; }
+			.spells a {clear: both; margin: 0px; padding: 0px; }
+			.spells img {clear: both; margin: 0px; padding: 0px; width: 35px; height: 35px; }
+		#petSpells td {width: 40px; padding: 5px 0px 0px 5px;}
+			#spellOne {    }
+        	#spellTwo {    }
+			#spellThree {    }
+			#spellFour {    }
+			#spellFive {    }
+			#spellSix {    }
+
+#chart_div { margin: 0px 0px 0px -35px; }
+
+
+/* Navigation Menu CSS */
+nav{  
+	padding-bottom: 0px;
+}
+
+nav .menu {
+	font-size: 18px;
+	font-weight: bold;
+}
+
+nav .menu ul {
+	margin: 0 0 0 0;
+	padding: 5px 0 0 0;
+	list-style: none;
+	line-height: normal;
+}
+
+nav .menu li {
+	display: block;
+	float: left;
+}
+
+nav .menu a {
+	display: block;
+	float: left;
+	margin-right: 5px;
+	padding: 0px 15px;
+	text-decoration: none;
+	color: #ff8000;
+	background-color: #0070dd;
+}
+
+nav .menu a:hover {
+	color: #0070dd;
+	background-color: #ff8000;
+	font-weight: bold;
+}
+
+.box{
+	width: 300px;
+	height: 20px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+}
+
+
+
+/* Form CSS */
+
+.form {
+	width: auto;
+	margin: 1%;
+}
+
+.form h2 { font-size: 16px; font-weight:bold; padding: 0px 0px 5px 0px; }
+
+form { font-size: 16px;    }
+
+.formBoxSizeRegion {
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	border-radius: 3px;
+	font-size: 14px;
+	padding: 3px;
+	width: 100px;	
+}
+
+.formBoxSizeRealm {
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	border-radius: 3px;
+	font-size: 14px;
+	padding: 3px;
+	width: 150px;	
+}
+
+.formBoxSizeText {
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	border-radius: 3px;
+	font-size: 14px;
+	padding: 3px;
+	width: 250px;	
+}
+
+.button {
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	border-radius: 3px;
+	font-size: 14px;
+	padding: 3px;
+	width: 50px;	
+}
+
+
+/* Footer CSS */
+footer {
+	clear: both;
+	margin-left: 5%;
+	margin-right: 10%;
+	width: auto;
+	padding-top: 10px;
+}
+
+footer p { margin-top: 10px;}
+
